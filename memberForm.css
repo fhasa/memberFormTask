@@ -26,6 +26,8 @@
     
     color: #000033;
     cursor: pointer;
+    box-shadow: 10px 10px 5px lightblue;
+
     
 }
 .fa-x{
@@ -106,14 +108,15 @@ margin-top: 7px;
     z-index: 1;
 }
 .check-box:checked + .check-label {
-    opacity: 1;
-    color: greenyellow;
-    border: 1px solid greenyellow;
+    color: rgb(0, 0, 0);
+   
     
   }
   .check-label:hover{
     color: black;
     cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(173, 230, 199);
+
   }
   .buttons-section{
     margin-top: 28px;
